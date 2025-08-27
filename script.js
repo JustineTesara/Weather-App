@@ -1,5 +1,5 @@
 function getWeather() {
-  const apiKey = "cce83ada19e1bd482a8caa610849afd9";
+  const apiKey = "your_api_key_here";
   const city = $("#cityInput").val();
 
   if (!city) {
@@ -97,3 +97,4 @@ function changeBackground(weather) {
       body.css("background", "linear-gradient(to bottom, #87ceeb, #4682b4)");
   }
 }
+
